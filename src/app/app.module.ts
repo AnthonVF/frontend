@@ -7,7 +7,8 @@ import { HeaderComponent } from './components/partials/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { SearchComponent } from './components/partials/search/search.component';
 import { FoodPageComponent } from './components/pages/food-page/food-page.component';
-import { CartPageComponent } from './componets/pages/cart-page/cart-page.component';
+import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
+import { TitleComponent } from './components/partials/title/title.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CartPageComponent } from './componets/pages/cart-page/cart-page.compone
     HomeComponent,
     SearchComponent,
     FoodPageComponent,
-    CartPageComponent
+    CartPageComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

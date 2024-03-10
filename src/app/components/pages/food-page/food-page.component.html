@@ -8,8 +8,7 @@
       </span>
       <span class="favorite {{food.favorite? '': 'not'}}">❤</span>
     </div>
-    <div class="rating">
-    </div>
+    <div class="rating"></div>
 
     <div class="origins">
       <span *ngFor="let origin of food.origins">
@@ -17,11 +16,7 @@
       </span>
     </div>
 
-    <div class="tags">
-      <a *ngFor="let tag of food.tags" routerLink="/tag/{{tag}}">
-        {{tag}}
-      </a>
-    </div>
+    <div class="tags"></div>
 
     <div class="cook-time">
       <span>

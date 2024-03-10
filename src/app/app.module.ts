@@ -9,6 +9,8 @@ import { SearchComponent } from './components/partials/search/search.component';
 import { FoodPageComponent } from './components/pages/food-page/food-page.component';
 import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
 import { TitleComponent } from './components/partials/title/title.component';
+import { CheckoutPageComponent } from './components/pages/checkout-page/checkout-page.component';
+import { OrderItemsListComponent } from './components/partials/order-items-list/order-items-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { TitleComponent } from './components/partials/title/title.component';
     SearchComponent,
     FoodPageComponent,
     CartPageComponent,
-    TitleComponent
+    TitleComponent,
+    CheckoutPageComponent,
+    OrderItemsListComponent
   ],
   imports: [
     BrowserModule,
